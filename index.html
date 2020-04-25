@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- Theme Made By www.w3schools.com -->
-  <title></title>
+  <title>Home</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -312,19 +312,19 @@
   </iframe><br>
   <h3>2.Boot from the media and choose “Repair your computer.”</h3>
   <p>When you boot from the USB drive, it will kickstart Windows 10 installation. Do not have a craving to keep hitting next, or you will end up installing Windows. On the first installation screen, look for a link “Repair your computer.” Click on it. It will boot your computer into Advanced Recovery.
-  <br><img class="w3-image w3-greyscale-min" style="width:60%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/repair-your-computer-windows-setup-600x444.png"></p>
+  <br><img class="w3-image w3-greyscale-min text-center" style="width:100%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/repair-your-computer-windows-setup-600x444.png"></p>
   <h3>3.Under Advanced troubleshooting, choose Startup Repair</h3>
   <p>
     When at the advanced troubleshooting, select Advanced Options.<br>
-    <img class="w3-image w3-greyscale-min" style="width:60%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Reset-or-Advanced-Options-Repair-Windows-10.jpg"><br>
+    <img class="w3-image w3-greyscale-min text-center" style="width:100%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Reset-or-Advanced-Options-Repair-Windows-10.jpg"><br>
     Select Troubleshoot.
-    <br><img class="w3-image w3-greyscale-min" style="width:60%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Boot-or-Repair-Windows-10-Troubleshoot.jpg">
+    <br><img class="w3-image w3-greyscale-min text-center" style="width:100%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Boot-or-Repair-Windows-10-Troubleshoot.jpg">
     <br>
     Under Advanced options screen, you will see Startup Repair.
-    <br><img class="w3-image w3-greyscale-min" style="width:60%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Startup-Repair-Windows-10.jpg"><br>
+    <br><img class="w3-image w3-greyscale-min text-center" style="width:100%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Startup-Repair-Windows-10.jpg"><br>
     Click on it and follow the instructions.
     This solution will fix the problems which don’t allow you to boot into the computer. In the next screen, it will display the admin account with its name. Click on it, and verify using the account password related to the email associated with it.
-    <br><img class="w3-image w3-greyscale-min" style="width:60%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Repair-Windows-10-using-the-Installation-Media.jpg"><br>
+    <br><img class="w3-image w3-greyscale-min text-center" style="width:100%" src="https://thewindowsclub-thewindowsclubco.netdna-ssl.com/wp-content/uploads/2019/04/Repair-Windows-10-using-the-Installation-Media.jpg"><br>
     After verification, it will start diagnosing the computer and resolve any issue related to boot. This post will help you in case this step fails and you are stuck on diagnosing your PC screen.
     Once the problem is resolved, the computer should reboot as usual, and you should be able to use it.
     The process doesn’t wipe or delete personal files from your account, so you don’t have to worry about it.
@@ -460,7 +460,7 @@
 </div>
 
 <!-- Image of location/map -->
-<!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:60%"> -->
+<!-- <img src="/w3images/map.jpg" class="w3-image w3-greyscale-min" style="width:100%"> -->
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
@@ -504,6 +504,13 @@ $(document).ready(function(){
     });
   });
 })
+$(function(){ 
+     var navMain = $(".navbar-collapse");
+
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
 </script>
 
 </body>
